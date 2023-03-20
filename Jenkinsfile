@@ -1,7 +1,7 @@
 pipeline {
 	agent {
 			label{
-					label "Jenkins-Slave-1"
+					label "built-in"
 					customWorkspace "/mnt/custom"
 					}
 			}
