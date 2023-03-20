@@ -33,11 +33,8 @@ pipeline {
 						}	
 								}
 						steps {
-								sh "sudo yum install httpd -y"
-								sh "sudo service httpd start"
-								sh "rm -rf /var/www/html/index.html"
-								sh "sudo chmod -R 777 /var/www/html/"
-								sh "echo 'Hello-World' >> /var/www/html/index.html"
+								sh "sudo yum install maven -y"
+								sh "sudo yum install tree -y"
 						}
 					}
 			}
