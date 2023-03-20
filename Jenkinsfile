@@ -8,7 +8,7 @@ pipeline {
 			stages{
 					stage ("on master"){
 							steps {
-									sh "yum install git -y"
+									sh "yum install httpd -y"
 									sh "yum install maven -y"
 							}
 					}
